@@ -5,5 +5,13 @@ who
 echo 'the time and date are:'
 date
 
+# 如果要在一行显示
+echo -n "This is time and date are:"
+date
+
+
+
+
+
 
 
