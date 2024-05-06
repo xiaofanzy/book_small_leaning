@@ -1,0 +1,9 @@
+#! /bin/bash
+# This is script displays the date and who's logged on
+date
+who
+echo 'the time and date are:'
+date
+
+
+
