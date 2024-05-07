@@ -46,3 +46,17 @@ do
     b=$(($b+1))
   done
 done
+
+# 循环处理文件数据
+IFS.OLD = $IFS
+IFS=$'\n'
+
+for entry in $(cat /etc/passwd)
+do 
+  echo "value is $entry -"
+  IFS=:
+  for value in $entry
+  do 
+      echo " value"
+  done
+done  
