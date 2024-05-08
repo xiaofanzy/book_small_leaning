@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# small shell
+name=$(basename $0)
+
+if [ $name = "addem" ]
+then
+  #total=$(($1+$2))
+  total=$[ $1+$2 ]
+elif [ $name = "multem" ]
+then
+  total=$(($1*$2))
+fi 
+echo "The $1 and $2 is $total"
