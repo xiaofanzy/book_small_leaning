@@ -1,0 +1,2 @@
+./test1.bash: line 9: exex: command not found
+but it should go to the testerror file
